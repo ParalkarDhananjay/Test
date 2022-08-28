@@ -64,14 +64,15 @@ body {
   font-weight: 600;
   background-color: #f8f9fa;
   font-family: Open Sans;
-
-  height: 95px;
+  padding: 30px;
+  height: 70px;
   font-size: 24px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: center;
-  margin-bottom: 50px;
+  /*margin-bottom: 50px;*/
+  width: 90%;
 
 }
 
