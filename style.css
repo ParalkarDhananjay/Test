@@ -1,0 +1,185 @@
+head,
+body {
+  background-color: #E5E5E5;
+}
+
+.container h1 {
+  font-family: Martel Sans;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #887C68;
+
+}
+
+.container {
+  margin-top: 100px;
+  /*margin-bottom: 150px;*/
+
+
+}
+
+.h1 {
+  margin-top: 124px;
+  line-height: 51px;
+  font-size: 28px;
+}
+
+.hd {
+  font-size: 25px;
+  font-weight: 550;
+}
+
+.card.hover,
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img {
+  margin-bottom: 55px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
+
+.card-text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.card-body {
+  width: 391px;
+  height: 260px;
+  left: 1208px;
+  top: 577px;
+}
+
+.card-title {
+  font-weight: 600;
+  background-color: #f8f9fa;
+  font-family: Open Sans;
+
+  height: 95px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.card shadow {
+  width: 391px;
+  height: 292px;
+  left: 442px;
+  top: 897px;
+  object-fit: cover;
+}
+
+.img {
+  position: absolute;
+  width: 455px;
+  height: 292px;
+  left: 1208px;
+  top: 285px;
+}
+
+button.focus,
+button:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+.ft {
+  margin-top: 25px;
+}
+
+.chk {
+  margin-bottom: 5px;
+}
+
+.rck {
+  margin-top: 20px;
+  padding-bottom: 15px;
+}
+
+/* Card Slider CSS */
+#carouselExampleControls {
+  margin: 20px 50px 35px 50px;
+}
+
+.cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+
+.carousel-inner {
+  padding: 1em;
+}
+
+.card-img-top {
+  height: 552px;
+  width: 470px;
+  left: 1207px;
+  top: 1909px;
+  border-radius: 0px;
+
+
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 765px) {
+  .card img {
+    height: 11em;
+  }
+}
+
+.centered {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  font-size: 13px;
+  font-family: 'Martel Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  /* identical to box height, or 114% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+.services {
+  margin-top: 352px;
+}
