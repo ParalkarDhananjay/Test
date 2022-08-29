@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200&family=Open+Sans:wght@300&display=swap');
+
 head,
 body {
   background-color: #E5E5E5;
 }
 
 .container h1 {
-  font-family: Martel Sans;
+  font-family: 'Martel Sans' ,sans-serif;
   font-size: 28px;
   font-weight: 600;
   line-height: 51px;
@@ -27,11 +29,6 @@ body {
   font-size: 28px;
 }
 
-.hd {
-  font-size: 25px;
-  font-weight: 550;
-}
-
 .card.hover,
 .card:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -44,42 +41,43 @@ body {
 }
 
 .card-text {
-  font-family: Open Sans;
+  font-family: 'Open Sans' sans-serif;
   font-size: 16px;
   font-weight: 300;
   line-height: 24px;
   letter-spacing: 0em;
   text-align: left;
-
 }
 
 .card-body {
-  width: 391px;
+  width: 350px;
   height: 260px;
   left: 1208px;
   top: 577px;
 }
 
 .card-title {
-  font-weight: 600;
+  /*font-weight: 600;*/
   background-color: #f8f9fa;
-  font-family: Open Sans;
+  font-family: 'Open Sans' sans-serif;
   padding: 30px;
-  height: 70px;
+  height: 80px;
+  /*margin-bottom: 20px;*/
   font-size: 24px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0em;
   text-align: center;
   /*margin-bottom: 50px;*/
-  width: 90%;
+  border-radius: 2px;
+  width: 100%;
 
 }
 
-.card shadow {
-  width: 391px;
-  height: 292px;
-  left: 442px;
+.card-shadow {
+  width: 450px;
+  /*height: 292px;*/
+  /*left: 442px;*/
   top: 897px;
   object-fit: cover;
 }
@@ -113,7 +111,7 @@ button:focus {
 
 /* Card Slider CSS */
 #carouselExampleControls {
-  margin: 20px 50px 35px 50px;
+  /*margin: 20px 50px 35px 50px;*/
 }
 
 .cards-wrapper {
@@ -167,8 +165,8 @@ button:focus {
   position: absolute;
   bottom: 10px;
   left: 50px;
-  font-size: 13px;
-  font-family: 'Martel Sans';
+  /*font-size: 13px;*/
+  font-family: 'Martel Sans' ,sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -182,5 +180,5 @@ button:focus {
 }
 
 .services {
-  margin-top: 352px;
+  margin-top: 300px;
 }
